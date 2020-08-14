@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    tools:context=".Landconverter">
+
+    <TextView
+        android:id="@+id/land"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MATRIX CONVERTER"
+        android:padding="20dp"
+        android:gravity="center"
+        android:background="#AA69DD86"
+        android:textStyle="bold"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Convert this amount" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter here"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="#E7E7E9"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="From"
+        android:textSize="18dp"
+        />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="To:" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:padding="25dp"
+        android:onClick="Inchclk"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:background="#77D5C2"
+         />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

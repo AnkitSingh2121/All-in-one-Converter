@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical"
+    tools:context=".Cube">
+
+
+    <TextView
+        android:id="@+id/cube"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="CUBE CONVERTER"
+        android:background="#82DAA4"
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#DDEEECE8"
+        android:inputType="numberDecimal"
+        android:hint="Enter Number" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rndbtn"
+        android:layout_marginTop="10dp"
+      android:onClick="cubeclk"
+        android:text="convert" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:textSize="25dp"
+        android:background="#8FB89E"
+       />
+</androidx.appcompat.widget.LinearLayoutCompat>

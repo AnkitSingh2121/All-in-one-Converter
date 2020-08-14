@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFC5C1"
+    android:orientation="vertical"
+    tools:context=".Detail">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="165dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="96dp"
+        android:background="#121212"
+        app:srcCompat="@drawable/ab"
+        />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:background="@drawable/rndbtn"
+        android:layout_marginLeft="120dp"
+        android:text="Converter" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version-1.10.101" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="190dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Design By-Mr.Ankit Singh" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
